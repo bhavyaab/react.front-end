@@ -1,8 +1,9 @@
-
+'use strict'
 import React from 'react'
 import ReactDom from 'react-dom'
 import superagent from 'superagent'
 
+import emailMe  from '../../lib/emailMe'
 
 export class MyForm extends React.Component{
   constructor(props){
@@ -25,7 +26,7 @@ export class MyForm extends React.Component{
   }
   handleSubmit (e){
     e.preventDefault()
-    console.log('form output: ', this.state.person)
+    emailMe(this.state.person)
     var person = {name: '', email: '', message: ''}
     this.setState({person})
   }

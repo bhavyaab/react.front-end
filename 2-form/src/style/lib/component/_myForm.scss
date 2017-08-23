@@ -1,0 +1,80 @@
+
+// .formContainer{
+//   min-height: 80%;
+//     width:100%;
+//     font-size: 75%;
+    // .parent {
+    //   position: relative;
+    //   padding-top: 15%;
+    // }
+//     h3{
+//       width: 100%;
+//       text-align: center;
+//       margin-top:$gutter*2;
+//     }
+//     div{
+//       width: 100%;
+//     }
+//    .left{
+//    min-height: $min-height * 2;
+     form{
+       width: 90%;
+       min-height: $min-height;
+       margin: $gutter;
+    //  }
+//      .thanks{
+//        width: 90%;
+//        min-height: $min-height;
+//        margin: $gutter;
+//        li{
+//          text-align: center;
+//          font-size: 1.25em;
+//        }
+//        li:first-child{
+//       margin-top: 30%;
+//        font-size: 5em;
+//        }
+//    }
+     input, textarea{
+      width: 80%;
+      margin-left: 10%;
+      border: 0;
+      border-bottom: 1px solid #999;
+      background: transparent;
+      padding: 3em 1em 0em .1em;
+     }
+     input:last-child{
+       border-bottom: 0;
+       cursor: pointer;
+     }
+   }
+//    .right{
+//      padding-bottom: $gutter* 3;
+//      ul{
+//        height: 60%;
+//        width: 80%;
+//        margin-left: $gutter*2;
+//      }
+//
+//      li{
+//        width: 100%;
+//        text-align: center;
+//        padding: $gutter/2;
+//      }
+//      span{
+//        margin: 0 $gutter/2;
+//      }
+//    }
+//    @media screen and (min-width: 550px){
+//      .left{
+//        width: 60%;
+//      }
+//      .right{
+//        position: absolute;
+//        display: block;
+//        width: 40%;
+//        left: 60%;
+//        top:55%;
+//      }
+//    }
+  //  }
